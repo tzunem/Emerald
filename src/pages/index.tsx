@@ -34,8 +34,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Emerald | Home</title>
-        <meta name="description" content="A Delusions production" />
+        <title>Lychee Frog</title>
+        <meta name="description" content="a touhou 10 reference" />
         <link rel="shortcut icon" href="/emerald.png" type="image/png" />
       </Head>
 
@@ -75,7 +75,7 @@ const Home: NextPage = () => {
                 }
               }}
             >
-              Ultraviolet
+              Ultraviolet (gay stuff)
             </button>
             <button
               className={`rounded-md ${
@@ -92,7 +92,7 @@ const Home: NextPage = () => {
                 }
               }}
             >
-              Dynamic (faster)
+              Dynamic (literally better)
             </button>
           </div>
         </div>

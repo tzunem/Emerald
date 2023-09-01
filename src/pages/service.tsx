@@ -21,7 +21,7 @@ const Service: NextPage<{ query: string }> = ({ query }) => {
           {loading ? (
             <div className="flex h-full w-full flex-col items-center justify-center space-y-2">
               <h1 className="text-4xl text-primary-100">
-                Loading {settingStore?.settings.proxy}...
+                loading {settingStore?.settings.proxy}... server
               </h1>
             </div>
           ) : null}

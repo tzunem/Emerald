@@ -37,7 +37,7 @@ const NavSearch = () => {
             height={50}
             className="m-5"
           />
-          <h1 className="flex text-4xl text-primary-100">Emerald</h1>
+          <h1 className="flex text-4xl text-primary-100">Lychee (frog)</h1>
         </div>
         <div
           onClick={() => input.current?.focus()}

@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import { IoIosApps } from "react-icons/io";
 import { FaDiscord } from "react-icons/fa";
-import { SiOpenai } from "react-icons/si";
-import { Gamepad2 } from "lucide-react";
+import { AlertTriangle } from 'lucide-react';
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { xor } from "./xor";
@@ -38,27 +37,27 @@ const Navbar = () => {
           </div>
           {/* buttons */}
           <div className="mr-5 flex flex-row space-x-4">
-            <Link href={"https://discord.gg/nq5xqEbHtp"} target="_blank">
+            <Link href={"https://discord.gg/T65ygMWBuY"} target="_blank">
               <button className="flex items-center justify-center rounded-md  border-[1px]  border-[#5865F2] px-3 py-2 text-center text-lg text-white transition-all ease-linear hover:bg-[#5865F2]">
                 <FaDiscord className=" mr-2 mt-[.5px] w-5" />
-                Discord
+                discord
               </button>
             </Link>
             <Link href={"/"}>
-              <button
-                disabled // border-[#c656e7] hover:bg-[#c656e7]
-                className="flex items-center justify-center rounded-md border-[1px] border-zinc-700 px-3 py-2 text-center text-lg text-zinc-500 transition-all ease-linear "
-              >
-                <Gamepad2 className=" mr-2 mt-[.5px] w-5" />
-                Games
+            <Link href={"/gpt"}>
+              <button className="flex items-center justify-center rounded-md  border-[1px]  border-[#f39a28] px-3 py-2 text-center text-lg text-white transition-all ease-linear hover:bg-[#f39a28]">
+               <AlertTriangle className=" mr-2 mt-[.5px] w-5" />
+                pornhub
               </button>
+            </Link>
+
             </Link>
             <button
               className="flex items-center justify-center rounded-md  border-[1px]  border-primary-200 px-3 py-2 text-center text-lg text-white transition-all ease-linear hover:bg-primary-200"
               onClick={() => setOpen(true)}
             >
               <IoIosApps className=" mr-2 mt-[.5px] w-5" />
-              Apps
+              apps
             </button>
           </div>
         </div>
@@ -116,7 +115,7 @@ const Navbar = () => {
                   }
                 }}
               >
-                Emerald Apps
+                Quick sites
               </motion.h1>
               <motion.div className="flex flex-wrap justify-center space-x-5">
                 {Array.isArray(apps)
