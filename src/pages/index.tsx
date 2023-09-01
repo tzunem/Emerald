@@ -75,7 +75,7 @@ const Home: NextPage = () => {
                 }
               }}
             >
-              Ultraviolet (gay stuff)
+              UV (gay)
             </button>
             <button
               className={`rounded-md ${
@@ -92,7 +92,7 @@ const Home: NextPage = () => {
                 }
               }}
             >
-              Dynamic (literally better)
+              Dynamic(normal)
             </button>
           </div>
         </div>
